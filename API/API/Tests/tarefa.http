@@ -1,8 +1,26 @@
+### Requisição para a raiz
+GET http://localhost:5000/
+
 ### Listar todas as tarefas
 GET http://localhost:5000/api/tarefas/listar
 
 ### Cadastrar uma nova tarefa
 POST http://localhost:5000/api/tarefas/cadastrar
+Content-Type: application/json
+
+### Atualizar tarefas
+PUT http://localhost:5000/api/tarefas/alterar/2f1b7dc1-3b9a-4e1a-a389-7f5d2f1c8f3e
+
+Content-Type: application/json
+
+### Tarefas não concluídas
+GET http://localhost:5000/api/tarefas/naoconcluidas
+Content-Type: application/json
+
+
+
+### Tarefas concluídas
+GET http://localhost:5000/api/tarefas/concluidas
 Content-Type: application/json
 
 {
