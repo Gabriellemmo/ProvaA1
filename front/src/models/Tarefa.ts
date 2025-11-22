@@ -1,8 +1,7 @@
-
-
-export default interface Tarefa {
-    id: number;
-    titulo: string;
-    descricao: string;
-    concluida: boolean;
+// models/tarefa.ts
+export interface Tarefa {
+  tarefaId: string;
+  titulo: string;
+  criadoEm: string; // ← camelCase para bater com a API
+  status: string;
 }

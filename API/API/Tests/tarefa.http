@@ -23,6 +23,9 @@ Content-Type: application/json
 GET http://localhost:5000/api/tarefas/concluidas
 Content-Type: application/json
 
+### Excluir tarefa
+DELETE http://localhost:5000/api/tarefas/remover/e5d4a7b9-1f9e-4c4a-ae3b-5b7c1a9d2e3f
+
 {
     "titulo": "Estudar Node.js"
 }

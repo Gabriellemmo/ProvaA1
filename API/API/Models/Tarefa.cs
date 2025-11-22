@@ -9,7 +9,7 @@ public class Tarefa
         Status = "Não iniciada";
     }
 
-    
+
     public string TarefaId { get; set; } = Guid.NewGuid().ToString();
     public string? Titulo { get; set; }
     public DateTime CriadoEm { get; set; } = DateTime.Now;
